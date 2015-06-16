@@ -1,0 +1,1 @@
+sbcl --noinform --load $1 --eval "(main)" --eval "(quit)"
