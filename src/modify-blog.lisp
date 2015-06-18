@@ -35,7 +35,7 @@
 		    (slot-value post 'id) 
 		    (slot-value post 'title) 
 		    (slot-value post 'time))
-	    (setf (slot-value post 'time) 3643496711)))
+	    (setf (slot-value post 'time) (encode-universal-time 27 2 22 1 6 2015))))
     (store-posts posts))
   (format t "end main~%")
 )

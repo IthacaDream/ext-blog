@@ -33,4 +33,3 @@
   (xml-rpc-methods:set-metaweblog-api)
   (create-log-path)
   (restas:start 'ext-blog :port port :acceptor-class 'ext-blog-acceptor))
-
